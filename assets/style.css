@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "monobloc";
+    src: url('Monobloc-Regular_web.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "monobloc";
+    src: url('Monobloc-Bold_web.woff2');
+    font-weight: 950;
+    font-style: normal;
+}
+
+:root {
+    font-family: 'monobloc';
+    font-variation-settings: "wght" 400;
+    margin: 0px;
+    padding: 0px;
+  }
+
+body {  
+    color: rgb(153, 132, 86); 
+    -webkit-font-smoothing: antialiased;
+    background:rgb(243, 243, 243);
+    margin:0;
+    overflow-x: hidden;
+    line-height: 1.25;
+  }
+
+.top {
+    padding-top: 80px;
+}
+
+section {
+display: flex;
+justify-content: space-around;
+}
+
+.images {
+    align-self: center;
+}
+
+  nav {
+    position: fixed;
+    font-size: 3rem;
+    background:white;
+    padding: 8px 15px 5px 15px;
+    width: 100vw;
+  }
+
+  .container1 {
+      background: white;
+      width: 100vw;
+  }
+
+  .containersmall{
+    padding: 8px 20px 5px 20px;
+  }
+
+  h1 {
+      font-size:3rem;
+      font-weight: 400;
+      margin:10 0 10 0;
+  }
+
+  a {
+      color: rgb(153, 132, 86); 
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.062); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgb(153, 132, 86); 
+    border-radius: 8px;
+  }
+
+  .workshop{
+      display: block;
+      overflow-y: scroll;
+      padding: 8px 20px 5px 20px;
+
+  }
+
+
+  .workshop2{
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+  ::selection {
+    background: rgb(153, 132, 86); 
+    color: white;
+  }
+  ::-moz-selection {
+    background: rgb(153, 132, 86); 
+    color: white;
+  }
+
+  li {
+      margin-bottom: 10px;
+  }
+
+  .wkshpcontainer {
+      width: 140vw;
+      height: 100%;
+  }
+  .interior {
+    padding: 8px 20px 5px 20px;
+    width: 48%;
+    height: 98%;
+    display: flex;
+  }
+
+  .first {
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(workshopbckg.jpg);
+    overflow: hidden;
+  }
+  .second {
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+  }
